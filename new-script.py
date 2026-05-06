@@ -9,3 +9,6 @@ try:
     print(os.listdir()) # This runs IN the new directory
 except FileNotFoundError:
     print("Invalid path")
+
+
+print(f"Now your current working directroy is:", os.getcwd())
